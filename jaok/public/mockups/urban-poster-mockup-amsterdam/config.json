@@ -1,0 +1,52 @@
+{
+  "slug": "urban-poster-mockup-amsterdam",
+  "title": {
+    "de": "Poster Mockup Amsterdam Straße",
+    "en": "Urban Poster Mockup Amsterdam Street"
+  },
+  "freebie": false,
+  "shopify": {
+    "tiers": [
+      { "id": "standard", "label": { "de": "Standard", "en": "Standard" }, "productHandle": "TODO", "variantId": "TODO" },
+      { "id": "extended", "label": { "de": "Extended", "en": "Extended" }, "productHandle": "TODO", "variantId": "TODO" },
+      { "id": "commercial", "label": { "de": "Commercial", "en": "Commercial" }, "productHandle": "TODO", "variantId": "TODO" }
+    ]
+  },
+  "canvas": {
+    "width": 1826,
+    "height": 2738
+  },
+  "layers": [
+    {
+      "type": "image",
+      "src": "layer-01.png"
+    },
+    {
+      "type": "area",
+      "id": "area-1",
+      "label": "YOUR POSTER HERE",
+      "corners": [
+        [
+          643.792928747768,
+          817.9940878596498
+        ],
+        [
+          1282.4830049642624,
+          817.9940878596498
+        ],
+        [
+          1282.4830049642624,
+          2017.687992382649
+        ],
+        [
+          643.792928747768,
+          2017.687992382649
+        ]
+      ]
+    },
+    {
+      "type": "image",
+      "src": "layer-02.png"
+    }
+  ]
+}

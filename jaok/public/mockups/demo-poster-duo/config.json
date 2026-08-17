@@ -1,0 +1,68 @@
+{
+  "slug": "demo-poster-duo",
+  "title": {
+    "de": "Demo: Zwei Poster-Rahmen",
+    "en": "Demo: Two Poster Frames"
+  },
+  "freebie": true,
+  "canvas": {
+    "width": 1600,
+    "height": 2000
+  },
+  "layers": [
+    {
+      "type": "image",
+      "src": "layer-01.png"
+    },
+    {
+      "type": "area",
+      "id": "area-1",
+      "label": "Linker Rahmen",
+      "corners": [
+        [
+          180,
+          260
+        ],
+        [
+          700,
+          260
+        ],
+        [
+          700,
+          1500
+        ],
+        [
+          180,
+          1500
+        ]
+      ]
+    },
+    {
+      "type": "area",
+      "id": "area-2",
+      "label": "Rechter Rahmen (perspektivisch)",
+      "corners": [
+        [
+          920,
+          340
+        ],
+        [
+          1420,
+          300
+        ],
+        [
+          1450,
+          1440
+        ],
+        [
+          960,
+          1520
+        ]
+      ]
+    },
+    {
+      "type": "image",
+      "src": "layer-02.png"
+    }
+  ]
+}
